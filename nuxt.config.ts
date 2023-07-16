@@ -4,5 +4,6 @@ export default defineNuxtConfig({
   pages: true,
   modules: [
     'nuxt-icon'
-  ]
+  ],
+  css: ['~/assets/main.scss']
 })

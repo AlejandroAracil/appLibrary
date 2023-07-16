@@ -2,7 +2,9 @@
   <div class="divContainer">
     <!-- <NuxtWelcome /> -->
     <HeaderComponent />
-    <NuxtPage />
+    <div class="divInfoPage">
+      <NuxtPage />
+    </div>
     <FooterComponent />
   </div>
 </template>
@@ -13,5 +15,9 @@
 .divContainer {
   position: relative;
   min-height: 100vh;
+}
+
+.divInfoPage {
+  margin: 1em 1em;
 }
 </style>
